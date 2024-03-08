@@ -328,6 +328,8 @@ ax.plot(x, norm.pdf(x, mu, sigma)*scale) # compute theoritical PDF and draw it
 
 ![Histogramme à inserez ici](histogram_log2FC.png "Title")
 
+<img src="VolcanoPlot.png"/>
+
 ##### 5. Quelles remarques peut-on faire à l'observation de l'histogramme et de la loi théorique?
 
 ```
