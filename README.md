@@ -171,34 +171,63 @@ df = pandas.read_csv()
 
 Quel est le type de l'objet `df`?
 ```
-
+df est un objet de type "data-frame" 
 ```
 
 ##### Descriptions d'une table de données
 Que permettent les méthodes suivantes?
 ###### df.shape
 ```
+# https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.info.html
+Return a tuple representing the dimensionality of the DataFrame.
 ```
 ###### df.head()
 ```
+Return the first n rows.
+This function returns the first n rows for the object based on position. It is useful for quickly testing if your object has the right type of data in it.
+
+For negative values of n, this function returns all rows except the last |n| rows, equivalent to df[:n].
+
+If n is larger than the number of rows, this function returns all rows.
 ```
 ###### df.tail()
 ```
+Return the last n rows.
+
+This function returns last n rows from the object based on position. It is useful for quickly verifying data, for example, after sorting or appending rows.
+
+For negative values of n, this function returns all rows except the first |n| rows, equivalent to df[|n|:].
+
+If n is larger than the number of rows, this function returns all rows.
 ```
 ###### df.columns
 ```
+Retourne les labels des colonnes du DF et le type
 ```
 ###### df.dtypes
 ```
+Return the dtypes in the DataFrame.
+
+This returns a Series with the data type of each column. The result’s index is the original DataFrame’s columns. Columns with mixed types are stored with the object dtype.
 ```
 ###### df.info
 ```
+Print a concise summary of a DataFrame.
+
+This method prints information about a DataFrame including the index dtype and columns, non-null values and memory usage.
 ```
 ###### df.describe()
 ```
+Generate descriptive statistics.
+
+Descriptive statistics include those that summarize the central tendency, dispersion and shape of a dataset’s distribution, excluding NaN values.
+
+Analyzes both numeric and object series, as well as DataFrame column sets of mixed data types. The output will vary depending on what is provided.
 ```
 ###### df.dropna()
 ```
+Remove missing values.
+
 ```
 
 ##### Accès aux éléments d'une table de données
