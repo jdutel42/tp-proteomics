@@ -501,7 +501,7 @@ ajouter les interacteurs de la première et de la deuxième couche.
 
 Que pouvez-vous en déduire sur les mécanismes activés par la présente de tétracycline ?
 ```
-
+QUand la bactérie est agressé par la tretracycline, la bactérie va surexprimé des protéines lié aux transporteurs au niveau de la membrane et de spompes à efflux
 
 
 
