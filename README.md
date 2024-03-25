@@ -490,8 +490,8 @@ Consulter la rubrique 'Network Stats' dans l'onglet Analysis.
 
 Que peut-on en conclure sur les interactions de ce petit ensemble de protéines ?
 ```
-
-
+Notre réseau de protéines semble significativement plus interagir qu'un groupe de protéines pris au hazard. AUtrement dit selon STRING :
+"This means that your proteins have more interactions among themselves than what would be expected for a random set of proteins of the same size and degree distribution drawn from the genome. Such an enrichment indicates that the proteins are at least partially biologically connected, as a group"
 
 
 ```
